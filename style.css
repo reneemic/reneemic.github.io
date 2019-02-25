@@ -53,12 +53,12 @@ nav{
 nav a {
 	padding: .5em 2em;
 	text-decoration: none;
-	color: mediumslateblue;
+	color: #fff;
 	
 }
 
 nav a:hover {
-	background: #fff;
+	background: #666;
 }
 
 section {
@@ -74,7 +74,7 @@ section {
 
 section ul {
 	columns: 2;
-	
+	background: aliceblue;
 }
 
 #projects{
