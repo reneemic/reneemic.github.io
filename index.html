@@ -8,11 +8,12 @@
 </head>
 
 <body>
+
 <HEADER>
 		<h1>Renee Michalosky</h1> 
 		<span>Junior Software Developer</span>
 		<p><img src="./images/headshot.jpg"/ style="width:200px;height:300px;"></p>
-
+  
 	</HEADER>
 
 <main>
@@ -60,43 +61,65 @@
     
     <Section id="projects">
     <h2>Projects</h2>
-    <div=id="projects">
-       
-       <article>
-       <h3>Review Site</h3>
-			<img src="./images/review.jpg">
-			<p>Skills Used: Java, TDD, JUnit,HTML,CSS,Spring MVC,Thymeleaf</p>
-        <a href="https://github.com/reneemic/reviews-site">Reviews Project</a>
-       </article>	
 
-       <article>
-       	    <h3>Virtual Pet Project</h3>
-       	    <p>Skills Used: TDD, JUnit, Java</p>
-       	    <img src="./images/virtualpet.jpg">
-        	<a href="https://github.com/reneemic/virtual-pet">Virtual Pet Project</a>
-        </article>
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+		<img src="./images/review.jpg" style="width:100%">
+	<div class="text">
+		<a href="https://github.com/reneemic/reviews-site">Reviews Site</a>
+       <!--  <p>Skills Used: Java, JavaScript, TDD, JUnit,HTML,CSS,Spring MVC,Thymeleaf</p> -->
+    </div>	
+
+       <div class="mySlides fade">
+       <div class="numbertext">2 / 3</div>
+           <img src="./images/virtualpet.jpg" style="width:100%">
+       <div class="text">
+           <a href="https://github.com/reneemic/virtual-pet">Virtual Pet Project</a>
+           <!-- <p>Skills Used: TDD, JUnit, Java</p> -->
+      </div>
        		
-		<article>
-			<h3>Fortune Teller</h3>
-			<img src="./images/fortuneteller.JPG">
-			<p>Skills used:Java</p>
-			<a href="https://github.com/reneemic/FortuneTeller">Fortune Teller Project</a>
-		</article>
+	<div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+		<img src="./images/fortuneteller.jpg" style="width:100%">
+	<div class="text">	
+		<a href="https://github.com/reneemic/FortuneTeller">Fortune Teller Project</a>
+		<!-- <p>Skills used:Java</p> -->
+	</div>
+	
+	<div style="text-align:bottom">
+  		<span class="dot" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
 
-    </div=id="projects">
+   </Section id="projects">
+   </section>
 
-   
-   </Section>
+<div class="navbar">
+   <div class="dropdown">
+    <button class="dropbtn">Information
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#contactMe">Contact</a>
+	  <a href="#aboutMe">About Me</a>
+	  <a href="#projects">Projects</a>
+    </div>
+  </div> 
+</div>
+    
 
-<section>
-<nav>
-	<a href="#contactMe">Contact</a>
-	<a href="#aboutMe">About Me</a>
-	<a href="#projects">Projects</a>
-</nav>
-</section>
+
+
 </main>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 
+        <script src="./src/js/app.js"></script>
 </body>
 		<FOOTER>Created with Sublime Text 3</FOOTER>
 </html>
