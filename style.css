@@ -6,12 +6,12 @@ line-height: 1.6em;
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-
 }
 
 html {
 	font-size: 16px;
 	margin-top: 3em;
+  background: #f4b6ff;
 }
 
 header,
@@ -19,11 +19,12 @@ main,
 footer {
 	margin: 0 auto;
 	max-width: 800px;
+
 }
 
 header {
 padding: 2em 0;
-background: aliceblue;
+background: #ffb6e6;
 text-align: center;
 }
 
@@ -127,133 +128,7 @@ header span {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-/* The Close Button */
-.close {
-  color: #7db29e;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-section {
-	margin: 1em 0;
-	padding-top: 2em;
-	min-height: 10em;
-	background: aliceblue;
-  text-align: center; 
-}
-
- section > p {
- 	margin: 1em 0;
-}
-
-section ul {
-	columns: 2;
-	background: aliceblue;
-  text-align: center;
-}
-
-#container{
-	display: flex;
-}
-#projects section{
-  background: aliceblue;
-  padding: 1em;
-}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: aliceblue;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.text {
-  color: #f2f2f2;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: flex;
-  bottom: 20px;
-  width: 100%;
-  text-align: bottom;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 footer {
 	margin-top: 2em;
