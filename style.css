@@ -11,7 +11,7 @@ padding: 0;
 html {
 	font-size: 16px;
 	margin-top: 3em;
-  background: #f4b6ff;
+  background:#8e5f8b;
 }
 
 header,
@@ -24,8 +24,8 @@ footer {
 
 header {
 padding: 2em 0;
-background: #ffb6e6;
-text-align: center;
+background: #cfb7cd
+justify-content: center;
 }
 
 img{
@@ -49,7 +49,7 @@ header span {
     display: flex;
     flex-flow: row;
     justify-content: center;
-  background-color: mediumslateblue;
+  background-color: #671a6b;
 }
 
 .navbar a {
@@ -128,12 +128,169 @@ header span {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+/* The Close Button */
+.close {
+  color: #7db29e;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Collapsible Starts Here*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #d9c6d8;
+  color: #444;
+  text-decoration-color: #eee;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f4cff9;
+}
+
+
+section {
+	margin: 1em 0;
+	padding-top: 2em;
+	min-height: 10em;
+	background: #cfb7cd;
+  text-align: center; 
+}
+
+ section > p {
+ 	margin: 1em 0;
+}
+
+section ul {
+	columns: 2;
+	background: #cfb7cd;
+  text-align: center;
+}
+
+#container{
+	display: flex;
+}
+#projects section{
+  background: #cfb7cd;
+  padding: .5em;
+  text-align: left;
+  /*display: inline-flex;*/
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: flex;
+  bottom: 20px;
+  width: 100%;
+  text-align: bottom;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 
 footer {
 	margin-top: 2em;
 	margin-bottom: 1em;
-	background: mediumslateblue;
+	background: #671a6b;
 	color: #fff;
 	padding: 1em 0;
 	text-align: center; 
