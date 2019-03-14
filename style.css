@@ -11,7 +11,7 @@ padding: 0;
 html {
 	font-size: 16px;
 	margin-top: 3em;
-  background:#8e5f8b;
+  background:#d9c6d3;
 }
 
 header,
@@ -24,8 +24,8 @@ footer {
 
 header {
 padding: 2em 0;
-background: #cfb7cd
-justify-content: center;
+background: #cfb7cd;
+text-align: center;
 }
 
 img{
@@ -144,7 +144,7 @@ header span {
 }
 
 /*Collapsible Starts Here*/
-/* Style the button that is used to open and close the collapsible content */
+
 .collapsible {
   background-color: #d9c6d8;
   color: #444;
@@ -158,12 +158,11 @@ header span {
   font-size: 20px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
 .active, .collapsible:hover {
   background-color: #ccc;
 }
 
-/* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
   display: none;
@@ -184,15 +183,23 @@ section {
  	margin: 1em 0;
 }
 
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
 section ul {
 	columns: 2;
-	background: #cfb7cd;
+  background: #cfb7cd;
   text-align: center;
+     
 }
 
 #container{
-	display: flex;
+	display: inline-flex;
 }
+
 #projects section{
   background: #cfb7cd;
   padding: .5em;
@@ -244,7 +251,7 @@ section ul {
   position: flex;
   bottom: 20px;
   width: 100%;
-  text-align: bottom;
+  text-align: top;
 }
 
 .numbertext {
