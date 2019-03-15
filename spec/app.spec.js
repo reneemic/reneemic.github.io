@@ -12,6 +12,9 @@ describe("Click Outside", function() {
   	 modal.style.display = "none"));
  })
 
+describe ("slide show to advance on it's own", function)
+var slideIndex
+
  }) 
 
   
