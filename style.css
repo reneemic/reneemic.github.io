@@ -298,12 +298,12 @@ section ul {
 footer {
 	margin-top: 2em;
 	margin-bottom: 1em;
-	background: #671a6b;
+	justify-content: center;
+  background-color: #b931b6;
 	color: #fff;
 	padding: 1em 0;
   width: 100%;
-	text-align: center; 
-}
+	}
 
 
 
